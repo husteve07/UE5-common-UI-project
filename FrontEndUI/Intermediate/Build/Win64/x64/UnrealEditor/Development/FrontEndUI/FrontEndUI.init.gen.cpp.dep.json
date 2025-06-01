@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "n:\\ue_proj\\ue5-common-ui-project\\frontendui\\intermediate\\build\\win64\\unrealeditor\\inc\\frontendui\\uht\\frontendui.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "n:\\ue_proj\\ue5-common-ui-project\\frontendui\\intermediate\\build\\win64\\x64\\frontenduieditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "n:\\ue_proj\\ue5-common-ui-project\\frontendui\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\frontendui\\definitions.frontendui.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
