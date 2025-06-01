@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"N:\\UE_proj\\UE5-common-UI-project\\FrontEndUI\\Source\\FrontEndUI\\FrontEndUI.Build.cs",
-		"N:\\UE_proj\\UE5-common-UI-project\\FrontEndUI\\Source\\FrontEndUI.Target.cs",
-		"N:\\UE_proj\\UE5-common-UI-project\\FrontEndUI\\Source\\FrontEndUIEditor.Target.cs"
-	],
-	"EngineVersion": "5.5.4"
-}
