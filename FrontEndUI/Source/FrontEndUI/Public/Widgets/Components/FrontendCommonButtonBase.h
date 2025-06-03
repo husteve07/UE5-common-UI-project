@@ -10,7 +10,7 @@ class UCommonTextBlock;
 /**
  * 
  */
-UCLASS(Abstract, BlueprintType, meta = (DisableNaiveTick))
+UCLASS(Abstract, BlueprintType, meta = (DisableNativeTick))
 class FRONTENDUI_API UFrontendCommonButtonBase : public UCommonButtonBase
 {
 	GENERATED_BODY()
@@ -22,6 +22,13 @@ private:
 	//~ Begin UUserWidget Interface
 	virtual void NativePreConstruct() override;
 	//~ End UUserWidget Interface
+
+	//~ Begin UCommonButton Interface
+	virtual void NativeOnCurrentTextStyleChanged() override;
+	virtual void NativeOnHovered() override;
+	virtual void NativeOnUnhovered() override;
+	//~End UCommonButtonBase Interface
+	
 
 	//**** Bound Widgets ****//
 	UPROPERTY(meta = (BindWidgetOptional))
