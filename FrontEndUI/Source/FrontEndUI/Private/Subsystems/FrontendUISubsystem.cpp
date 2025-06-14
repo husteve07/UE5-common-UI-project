@@ -105,7 +105,7 @@ void UFrontendUISubsystem::PushConfirmScreenToModalStackAsync(EConfirmScreenType
 		}
 	);
 	
-}
+}	
 
 bool UFrontendUISubsystem::ShouldCreateSubsystem(UObject* Outer) const
 {
